@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    position: fixed;
+    width: 100vw;
+    padding: 3vw;
+    padding-bottom: 1vw;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(255, 255, 255, 0.212); */
+    z-index:10;
+    height: 100px;
+    background-color: rgb(234, 244, 245);
+        color: black;
+        border-bottom: 1px sold lightgray;
+}
+.First{
+    margin-left:2vw ;
+    margin-right: 2vw;
+    display: flex;
+    gap: 2.5vw;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.logo{
+    color: rgb(12, 177, 206);
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    bottom: 8px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    /* background-image: url('Screenshot (66).png');
+    height: 2rem;
+    width: 2rem;
+    position: relative; */
+}
+button{
+    position: relative;
+    bottom: 4px;
+    border: rgb(12, 177, 206) solid;
+    padding: 5px;
+    color: rgb(12, 177, 206);
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 0.3s;
+}
+ button:hover{
+     /* background-color:rgb(159, 223, 63) ; */
+     color: rgb(89, 62, 240);
+ }
+ #chveron:hover{
+     transform: rotate(180deg);
+     transition: 0.3s;
+ }
+
+ul li.navcontent ul li.submenu
+{
+    display: none;
+ 
+    
+}
+ul li.navcontent:hover ul li.submenu
+    {
+      display: block;
+        
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+      
+  
+    }
+    ul li.navcontent ul li.submenus
+{
+    display: none;
+    
+ 
+}
+ul li.navcontent:hover ul li.submenus
+    {
+      display: block;
+     
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;       
+    }
+
+    .bgColor{
+        transition: all 1s;
+        background-color: rgb(234, 244, 245);
+        color: black;
+        border-bottom: 1px sold lightgray;
+        
+    }
+    
+  
+
+    a:link{
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.157);       
+
+    }
+    .submenu a{
+        color:#ffff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .submenus a{
+        color:#ffff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+   .nav-anchor{
+    background-color: rgb(234, 244, 245);
+           color: black;
+   }
+
+    a:hover {
+        background-color: rgb(241, 241, 241);
+        color: white;
+      }
+
+      .submenu{
+          margin:10px
+      }
+
+      .submenus{
+          margin:10px
+      }

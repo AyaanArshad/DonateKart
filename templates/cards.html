@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 50px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    .container .box {
+        width: 350px;
+
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 40px 40px 40px 10px;
+        margin: 20px;
+        box-sizing: border-box;
+        /* used to size the box in respect of div*/
+        overflow: hidden;
+    }
+
+    .container .box .icon {
+        position: relative;
+        height: 80px;
+        width: 80px;
+        margin: auto;
+        background: black;
+        color: white;
+        font-size: 30px;
+        border-radius: 50%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+    }
+
+    .container .box .content {
+        position: relative;
+        z-index: +20;
+    }
+
+    .container .box .content h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Secular One', sans-serif;
+
+    }
+
+    .container .box .content p {
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Secular One', sans-serif;
+        font-size: 1rem;
+
+        padding: 20px;
+    }
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+        display: flex;
+        padding: 10px 20px;
+        margin-left: 20%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        position: relative;
+        width: 40%;
+        background-color: white;
+        color: black;
+    }
+
+
+    .container .box:nth-child(1) .icon {
+        background: red;
+
+
+        box-shadow: 0px 0px 0px red;
+
+    }
+
+    .container .box:nth-child(1):hover .content {
+        color: white;
+
+    }
+
+    .container .box:nth-child(1):hover .icon {
+        box-shadow: 0px 0px 0px 500px red;
+        color: black;
+        background-color: white;
+        transform: rotateZ(360deg);
+
+    }
+
+    .container .box:nth-child(1):hover .content {
+        color: white;
+    }
+
+    .container .box:nth-child(2) .icon {
+        background: rgb(57, 19, 230);
+        color: white;
+
+    }
+
+    .container .box:nth-child(2):hover .icon {
+        box-shadow: 0px 0px 0px 500px rgb(61, 10, 247);
+        color: black;
+        background-color: white;
+        transform: rotateZ(360deg);
+
+    }
+
+    .container .box:nth-child(3) .icon {
+        background: rgb(58, 248, 41);
+        color: white;
+
+    }
+
+    .container .box:nth-child(3):hover .icon {
+        box-shadow: 0px 0px 0px 500px rgb(14, 240, 7);
+        color: black;
+        background-color: white;
+        transform: rotateZ(360deg);
+
+    }
+
+    /* .hot
+    {
+        text-align: center;
+        position: relative;
+        margin-top: -3rem;
+        font-size: 2rem;
+        font-family: 'Fredoka One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Secular One', sans-serif;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        width: 100%;
+        background-color: rgba(192, 192, 192, 0.164);
+    } */
+
+    p {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <!-- <div class="hot"><h2>Start up</h2></div> -->
+    <div class="container">
+
+        <div class="box">
+            <div class="icon">1</div>
+            <div class="content">
+                <h3>
+                    Floweret
+                </h3>
+                <p>
+                    The idea of online flower shop is a splendid one. We are getting busier day by day and therefore,
+                    ordering flowers online is a noble idea as you won't be late for the
+                    party.
+                </p>
+                <a href="templates\signup.html">For More Info</a>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="icon">2</div>
+            <div class="content">
+                <h3>
+                    Terracotta
+                </h3>
+                <p>
+                    It is , one of the oldest and most widespread of the decorative arts, consisting of objects made of
+                    clay and hardened with heat.Our pottery objects are natural and highly durable, which is why we invite you to buy them.
+
+                </p>
+                <a href="\startrup2">For More Info</a>
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="icon">3</div>
+            <div class="content">
+                <h3>
+                    Attire turnout
+                </h3>
+                <p>
+                    Latest trends in clothing for women, men & kids at Attire turnout online. Find new arrivals, fashion catalogs, collections & lookbooks every week.
+                </p>
+                <a href="\startrup3">For More Info</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

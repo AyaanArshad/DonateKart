@@ -1,0 +1,215 @@
+body
+{
+    margin-top: 4rem;
+    /* background-image: url("imageedit_1_7070032235.png"); */
+    background-position: center;
+    
+  
+    
+}
+.table
+{
+  height: 400px;
+  width: 350px;
+  background-color: #f6f0c4;
+background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
+
+  margin: auto;
+  display: block;
+  border-style:groove; /*for making thin border of table till line 15*/
+  border-width:1px;
+ 
+  
+}
+img.change
+{
+    height:10rem;
+    width:10rem;
+    margin-left: 3.5rem;
+    margin-bottom: -2rem;
+   
+}
+
+.tab
+{
+  margin-top: 10px;
+  
+    display:flex;
+    justify-content: center;
+}
+input.size
+{
+    height: 35px;
+    width: 280px;
+    background-color: whitesmoke;
+    border-radius:5px;
+    padding-left: 8px;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: lighter;
+    padding-top: 2px;
+   
+}
+input.valo
+{
+    height: 35px;
+    width: 280px;
+    background-color: whitesmoke;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-top: 2px;
+    border-width: 1px;
+    font-size: 12px;
+}
+button.but
+{
+    
+    height: 30px;
+    width: 280px;
+    background-color:  rgb(147, 209, 245);
+   padding-top: 1px;
+   
+   
+   
+    border-radius: 5px;
+    border-width: 0px;
+    padding-bottom: 15px;/*i have tried here to bring login little up */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3;
+    padding-top: 13px;
+}
+    
+    
+ button:hover
+    {
+        /* background-color:  rgb(12, 122, 224); */
+    }
+p.hen
+{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 12px;
+}
+   
+ 
+hr.tt
+{
+    width:120px;
+    display: inline;
+    float: left;
+}
+    
+hr.hh
+{
+    width: 120px;
+    display:inline;
+    float:right;
+}
+p.pop
+{   font-size:15px;
+    font-weight:100;
+    color: rgb(121, 120, 120);
+   
+    display:inline;
+    padding-left: 2px;
+}
+.rt
+{
+    margin-left: 50px;
+  
+}
+img.aa
+{  
+    height: 25px;
+    width:25px;
+    display: inline;
+
+}
+p.bb
+{
+    color: rgb(10, 10, 102);
+    font-size: 15px;
+    font-weight: 800;
+    display: inline;
+}
+a.ee{
+    text-decoration: none; /*to have no line in hyperlink text*/
+}
+p.rec
+{
+    font-size: 13px;
+    margin-left:15px;
+    color: rgb(15, 15, 97);
+}
+
+
+.sec
+{
+    height:40px;
+    width: 350px; 
+    margin: auto; 
+    display:block; 
+    background-color: #f6f0c4;
+background-image: linear-gradient(315deg, #f6f0c4 0%, #d99ec9 74%);
+    text-align: center;
+    padding-top: 20px;
+    border-style:groove;
+    border-width: thin;
+ 
+}
+p.qq
+{
+    font-size: 16px;
+    
+ 
+   display: inline;
+   
+}
+
+a.no
+{
+    text-decoration:none;
+    text-emphasis-color:rgb(43, 234, 248);
+    font-weight: 900;
+
+   
+    display: inline;
+}
+
+.pop
+{
+    height:100px;
+    width: 350px; 
+    
+    margin: auto;
+    display: block;
+    
+    text-align: center;
+   padding-bottom: 50px;
+   padding-top: 1px;
+  
+}
+.pop p
+{
+    font-size: 15px;
+    color: rgb(31, 30, 30);
+}
+img.ghj
+{
+    height: 40px;
+    width: 135px;
+    
+    
+  margin-left: 49px;
+
+}
+img.rty
+{
+    height: 40px;
+    width: 135px;
+   
+    
+}

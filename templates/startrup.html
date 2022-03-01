@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- poppins700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- poppins400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="startup.css">
+</head>
+
+<body>
+    <section>
+        <div class="name_conatiner">
+            <h1 class="name">startup name</h1>
+        </div>
+
+        <div class="startup_info_container">
+            <div class="startup_img_discription_conatiner">
+                <div class="startup_image_container">
+                    <img class="startup_image"
+                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-tulips-blooming-in-field-royalty-free-image-1584131603.jpg"
+                        alt="">
+                </div>
+                <div class="startup_discription_conatiner">
+                    <p class="startup_discription">
+                        Lorem ipsum dolor sit amet <br>
+                        consectetur adipisicing elit. <br>
+                        Mollitia amet et ipsum perf <br>
+                        molestias earum id totam magni
+
+                    </p>
+                    <button onclick="launchRazorPay()" class="payement_btn">
+                        payment
+                    </button>
+                </div>
+
+            </div>
+            <div class="startup_info_conatiner">
+                <p class="info_container">
+                    Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit. <br>
+                    Mollitia amet et ipsum perf <br>
+                    molestias earum id totam magni <br>
+                    Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit. <br>
+                    Mollitia amet et ipsum perf <br>
+                    molestias earum id totam magni <br>
+                    Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit. <br>
+                    Mollitia amet et ipsum perf <br>
+                    molestias earum id totam magni <br>
+                    Lorem ipsum dolor sit amet <br>
+                    consectetur adipisicing elit. <br>
+                    Mollitia amet et ipsum perf <br>
+                    molestias earum id totam magni <br>
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script>
+        Object.onclick = launchRazorPay = () => {
+            let options = {
+                key: "rzp_test_PKPubWYc4XYFkp",
+                amount: 10000 * 100,
+                currency: "INR",
+                name: "Fund Raiser",
+                description: "Payment gateway",
+                image: "",
+                handler: () => {
+                    alert("Payment Done");
+                },
+                theme: {
+                    color: "#0d6efd"
+                },
+
+            };
+
+            const RazorPay = new window.Razorpay(options);
+            RazorPay.open();
+
+        };
+    </script>
+</body>
+
+</html>
